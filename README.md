@@ -1,13 +1,13 @@
 # Node.js
 
 
-Env variables:
+### Env variables:
 
-    process.env - holds all the environment variables
+   process.env - holds all the environment variables
     
-Process is a global object
+Process is a global objec.
 
-Creating an env variable:
+### Creating a new env variable:
 
-      export HEY='heyy!!!'
+    export HEY='heyy!!!'
  
