@@ -5,7 +5,7 @@
 
    process.env - holds all the environment variables
     
-Process is a global objec.
+Process is a global object.
 
 ### Creating a new env variable:
 
