@@ -38,3 +38,15 @@ Define env variable using the command line
 ```javascript 
    export PORT=5000
 ```
+
+Requests params:
+```javascript 
+   req.params
+```
+
+
+Requests query:
+```javascript 
+   req.query
+```
+
