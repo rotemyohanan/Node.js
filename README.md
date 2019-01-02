@@ -32,3 +32,9 @@ The nodemon can to run the program ``` nodemon index.js```
 ```javascript 
    const port = process.env.PORT || 3000; 
 ```
+
+Define env variable using the command line
+
+```javascript 
+   export PORT=5000
+```
