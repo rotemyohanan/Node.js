@@ -50,3 +50,6 @@ Requests query:
    req.query
 ```
 
+
+
+>note: the JSON send in the postman, each field should be set as a String "id", as opposed to the code, where the key values should not be String "" .
