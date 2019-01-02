@@ -53,3 +53,19 @@ Requests query:
 
 
 >note: the JSON send in the postman, each field should be set as a String "id", as opposed to the code, where the key values should not be String "" .
+
+
+### Joi - validation check for the input 
+```javascript
+const schema = {
+        name: Joi.string().min(3).required()
+    }
+
+   const result = Joi.validate(req.body, schema)
+   console.log(result)
+
+    if(result.error) {
+        res.status(400).send(result.error.details[0].message)
+        return
+    }
+```
