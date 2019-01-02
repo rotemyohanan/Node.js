@@ -23,6 +23,7 @@ When require a directory in a file it will directly fetching the index.js of tha
  
 Install Nodemon (Node monitor)
 
-```javascript npm install -g nodemon```
+```javascript npm install nodemon -g --save```
 
-This can be use instead of node to run the program
+The nodemon can to run the program ``` nodemon index.js```
+
