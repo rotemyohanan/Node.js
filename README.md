@@ -27,3 +27,8 @@ Install Nodemon (Node monitor)
 
 The nodemon can to run the program ``` nodemon index.js```
 
+### Define a syatem environment variable
+
+```javascript 
+   const port = process.env.PORT || 3000; 
+```
