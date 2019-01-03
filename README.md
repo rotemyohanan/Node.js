@@ -69,3 +69,23 @@ const schema = {
         return
     }
 ```
+
+### Middle ware functions
+
+```javascript express.json() ```
+returns  req.body as a json object
+
+
+
+```javascript app.use((req, res, next) => { }) ```// the next is the next function in the middleware in the pipeline, else the request stays pending
+
+
+calling to the method is a sequence
+
+Env
+
+```javascript process.env.NODE_ENV   // undefind by default
+   app.get('env')
+```
+
+
