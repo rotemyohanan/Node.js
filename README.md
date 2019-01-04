@@ -89,3 +89,10 @@ Env
 ```
 
 
+### configuration
+
+Using RC
+
+```javascript npm i config , debug```
+
+
