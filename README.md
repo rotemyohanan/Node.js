@@ -120,3 +120,21 @@ Or, if you don't want/need a background service you can just run:
 ==> Summary
 🍺  /usr/local/Cellar/mongodb/4.0.4_1: 18 files, 259.8MB
 Rotems-MacBook-Pro-2291:ign-genetic-assets rotemyochanan$ 
+
+``` Rotems-MacBook-Pro-2291:ign-genetic-assets rotemyochanan$ mongod
+2019-01-06T18:34:19.319+0200 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-01-06T18:34:19.331+0200 I CONTROL  [initandlisten] MongoDB starting : pid=66622 port=27017 dbpath=/data/db 64-bit host=Rotems-MacBook-Pro-2291.local
+2019-01-06T18:34:19.331+0200 I CONTROL  [initandlisten] db version v4.0.4
+2019-01-06T18:34:19.331+0200 I CONTROL  [initandlisten] git version: f288a3bdf201007f3693c58e140056adf8b04839
+2019-01-06T18:34:19.331+0200 I CONTROL  [initandlisten] allocator: system
+2019-01-06T18:34:19.331+0200 I CONTROL  [initandlisten] modules: none
+2019-01-06T18:34:19.331+0200 I CONTROL  [initandlisten] build environment:
+2019-01-06T18:34:19.331+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2019-01-06T18:34:19.331+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-01-06T18:34:19.331+0200 I CONTROL  [initandlisten] options: {}
+2019-01-06T18:34:19.331+0200 I STORAGE  [initandlisten] exception in initAndListen: NonExistentPath: Data directory /data/db not found., terminating
+2019-01-06T18:34:19.331+0200 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2019-01-06T18:34:19.331+0200 I NETWORK  [initandlisten] removing socket file: /tmp/mongodb-27017.sock
+2019-01-06T18:34:19.332+0200 I CONTROL  [initandlisten] now exiting
+2019-01-06T18:34:19.332+0200 I CONTROL  [initandlisten] shutting down with code:100
+```
