@@ -151,3 +151,9 @@ Doownload the mongo db compass
 
 ``` https://www.mongodb.com/download-center/compass?jmp=hero ```
 
+install mongoose
+
+```javascript
+   npm install mongoose
+```
+Jan 2019 version:   + mongoose@5.4.2
