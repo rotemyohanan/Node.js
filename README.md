@@ -143,3 +143,11 @@ Rotems-MacBook-Pro-2291:ign-genetic-assets rotemyochanan$
 2019-01-06T18:34:19.332+0200 I CONTROL  [initandlisten] now exiting
 2019-01-06T18:34:19.332+0200 I CONTROL  [initandlisten] shutting down with code:100
 ```
+
+
+### MongoDB Compass
+
+Doownload the mongo db compass
+
+``` https://www.mongodb.com/download-center/compass?jmp=hero ```
+
