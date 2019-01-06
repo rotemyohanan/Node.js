@@ -103,3 +103,9 @@ Install mongoDB:
 ```javascript
    brew install mongodb
 ```
+
+MongoDB saves data in the ```/data/db```
+
+Hence create the directory
+``` sudo mkdir -p /data/db ```
+``` sudo chown -R `id -un` /data/db ```
