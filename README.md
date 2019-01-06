@@ -113,6 +113,11 @@ Hence create the directory
 
 ### MongoDB
 
+> Remove the MongoDB:
+https://medium.com/@rajanmaharjan/uninstall-mongodb-macos-completely-d2a6d6c163f9
+
+
+
 To have launchd start mongodb now and restart at login:
   brew services start mongodb
 Or, if you don't want/need a background service you can just run:
