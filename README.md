@@ -157,3 +157,10 @@ install mongoose
    npm install mongoose
 ```
 Jan 2019 version:   + mongoose@5.4.2
+
+
+Import data into the mongoDB
+```javascript
+ mongoimport --db mongo-exercises --collection courses --file exercise-data.json --jsonArray
+
+```
