@@ -96,3 +96,10 @@ Using RC
 ```javascript npm i config , debug```
 
 
+
+### MongoDB
+
+Install mongoDB:
+```javascript
+   brew install mongodb
+```
