@@ -170,3 +170,13 @@ Import data into the mongoDB
 https://mongodb.github.io/node-mongodb-native/markdown-docs/queries.html
 
 
+### Validation
+
+Using the Joi we are validating the data
+
+
+### Arrow function
+() => 
+Those functions have not their own **this** function
+
+function () { this.price} // the this refers to the this of the file
