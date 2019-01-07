@@ -180,3 +180,29 @@ Using the Joi we are validating the data
 Those functions have not their own **this** function
 
 function () { this.price} // the this refers to the this of the file
+
+
+### Schema example
+
+```javascript
+const courseSchema = new mongoose.Schema({
+    name : { 
+        type : String, 
+        required : true,
+        minlength : 5,
+        maxlength : 20
+    },
+    tags : [String],
+    category : {                                  //  this is an ENUM
+        type: String,
+        enum: ["Web", "Mobile", "Network"]
+    },
+    date : { type : Date, default : Date.now() },
+    auhtor : { type : String },
+    isPublished : { type : Boolean },
+    price : { 
+        type: Number,
+        required: function() { return this.isPublished } 
+    }
+})
+```
