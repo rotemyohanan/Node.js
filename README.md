@@ -208,3 +208,19 @@ const courseSchema = new mongoose.Schema({
     }
 })
 ```
+
+### Custom validations
+
+```javascript 
+
+tags : {
+        type: Array,
+        validate : {
+            validator: function(v) {
+                return v && v.length > 0
+            },
+            message: "The tags should be at least 1 tag"
+        }
+    },
+
+```
