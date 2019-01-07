@@ -182,7 +182,7 @@ Those functions have not their own **this** function
 function () { this.price} // the this refers to the this of the file
 
 
-### Schema example
+### Schema example .  (built in validators)
 
 ```javascript
 const courseSchema = new mongoose.Schema({
@@ -202,6 +202,8 @@ const courseSchema = new mongoose.Schema({
     isPublished : { type : Boolean },
     price : { 
         type: Number,
+        min: 3,
+        max: 90,
         required: function() { return this.isPublished } 
     }
 })
