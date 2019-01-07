@@ -164,3 +164,9 @@ Import data into the mongoDB
  mongoimport --db mongo-exercises --collection courses --file exercise-data.json --jsonArray
 
 ```
+
+### MongoDB documentation for DB queries
+
+https://mongodb.github.io/node-mongodb-native/markdown-docs/queries.html
+
+
