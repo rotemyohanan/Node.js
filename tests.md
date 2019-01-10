@@ -14,3 +14,6 @@
 npm install --save-dev @babel/core
 ```
 
+```javascript
+npm install babel-jest
+```
