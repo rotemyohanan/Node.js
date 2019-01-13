@@ -224,3 +224,9 @@ tags : {
     },
 
 ```
+
+### Converting objects to JSON
+
+```javascript
+npm intall stringify-object
+```
