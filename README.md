@@ -230,3 +230,8 @@ tags : {
 ```javascript
 npm intall stringify-object
 ```
+
+Using stringify int he code:
+```javascript
+console.log(`Existing Image: ${JSON.stringify(existingImg)}`)
+```
