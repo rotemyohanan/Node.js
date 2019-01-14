@@ -235,3 +235,8 @@ Using stringify int he code:
 ```javascript
 console.log(`Existing Image: ${JSON.stringify(existingImg)}`)
 ```
+
+Using jshint to hint the javascript code
+```javascript
+npm install -gsudosudo jshint // not working for me!!!
+```
