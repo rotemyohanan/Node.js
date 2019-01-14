@@ -240,3 +240,16 @@ Using jshint to hint the javascript code
 ```javascript
 npm install -gsudosudo jshint // not working for me!!!
 ```
+
+### publish NPM
+
+```javascript
+npm publish
+```
+
+When we want to install a package
+
+```javascript
+npm i :package-name
+```
+
