@@ -36,3 +36,8 @@ npm i -D mock-req-res
 ```javascript
 npm i -D sinon
 ```
+
+Creating a mocking test:
+```javascript    
+const req = mockRequest({ body: { isBest: true, mutation: "C.1048A>G", gene: "BLM", sampleID: "NA98465" }})
+```
