@@ -24,3 +24,15 @@ The package.json scripts:
     "test": "jest --verbose"
   },
 ```
+
+
+### req-res-mock
+
+Installing the req-res-mock
+```javascript
+npm i -D mock-req-res
+```
+
+```javascript
+npm i -D sinon
+```
