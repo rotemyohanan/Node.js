@@ -4,6 +4,15 @@
 ### Env variables:
 
    process.env - holds all the environment variables
+   
+Running the following line:
+```javascript
+console.log(`app: ${app.get('env')}`)
+```
+by default the result will be:
+```javascript
+app: development
+```
     
 Process is a global object.
 
