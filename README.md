@@ -262,3 +262,26 @@ When we want to install a package
 npm i :package-name
 ```
 
+### config
+
+Running
+```javascript
+npm rc // for the config
+
+npm i config
+```
+
+Than I should create a folder calls ```config ```
+Under that folder create the files:
+```javascript
+1) default.json
+2) development.json
+3) production.json
+```
+
+Don't forget to add the .gitIgnore file to the project.
+
+### Debug
+```javascript
+npm i debug
+```
