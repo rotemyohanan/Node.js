@@ -14,6 +14,11 @@ export DEBUG=app:*
 
 ```
 
+running the debug mode while running the application can be done by:
+```javascript
+DEBUG=app:* nodemon index.js
+```
+
 Add to the ```index.js``` file the following lines:
 
 ```javascript
