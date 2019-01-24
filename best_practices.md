@@ -116,3 +116,15 @@ Generators - https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Iterator
 I’d recommend using KeyMetric’s PM2 http://pm2.keymetrics.io/ to manage your process. Though other options include (Nodemon)[http://nodemon.io/] (thanks @szabi) and (Forever)[https://github.com/foreverjs/forever].
 
 
+### Git
+
+Start the project with git versioning and do not forget to create **.gitignore** file
+
+Creating the **.gitignore** file using the: 
+
+      https://www.gitignore.io/
+And the input parameters should be: **node** and **visualStudioCode**
+
+
+
+
