@@ -126,5 +126,10 @@ Creating the **.gitignore** file using the:
 And the input parameters should be: **node** and **visualStudioCode**
 
 
+## babel
+
+Add the ```.babelrc ``` file in the node project and make sure that the 
+
+
 
 
