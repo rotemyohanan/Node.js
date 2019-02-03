@@ -285,3 +285,17 @@ Don't forget to add the .gitIgnore file to the project.
 ```javascript
 npm i debug
 ```
+
+
+All the files are saved under the local directory:
+```javascript
+/usr/local/lib/node_modules/npm/
+```
+
+In a collision the following command line should be run:
+```javascript
+sudo rm -rf  /usr/local/lib/node_modules/npm/
+```
+
+
+
