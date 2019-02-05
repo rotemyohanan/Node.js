@@ -1,9 +1,17 @@
 
 # JSON
 
+>Note:
+A note on AJAX — JSON is often used with AJAX, or Asynchronous JavaScript and XML.
+AJAX is used to transfer data without having to refresh the browser page
 
 
-###Data Types
+JSON saved in a ```.json``` file. JSON files consist of a series of key/value pairs.
+```javascript
+{ "key": "value" }
+```
+
+### Data Types
 The following data types can be used with JSON:
 ```javascript
 strings (in double quotes)
