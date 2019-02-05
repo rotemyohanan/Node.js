@@ -28,3 +28,30 @@ null
 The ```JSON.stringify()``` function converts a JavaScript object into a JSON string. 
 **Strings** are **lightweight** and therefore **very useful** when transporting data from a client to a server.
 
+
+The ```JSON.stringify()``` function lets us **convert objects to strings**. 
+To do the opposite, we use the ```JSON.parse()``` function.
+
+### JSON.parse()
+
+Convert a string back into a function.
+
+```javascript
+let s = JSON.parse(contacts);
+```
+
+### Using Fetch
+The **Fetch API** is a newer built-in feature of JavaScript that makes working with requests and responses much easier. 
+We can use Fetch with our data like so:
+
+```javascript
+fetch('./users.json').then(response => {
+  return response.json();
+}).then(data => {
+  // Work with your JSON data here..
+  console.log(data);
+}).catch(err => {
+  // What do when the request fails
+  console.log('The request failed!'); 
+});
+```
