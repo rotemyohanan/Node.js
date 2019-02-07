@@ -20,3 +20,13 @@ npm r -g watchman
 brew install watchman
 ```
 
+
+
+
+```javascript
+const mockFunction = jest.fn()
+mockFunction.mockReturnValue(1)
+// mockFunction.mockResolveValue(1)
+const result = mockFunction()
+```
+
