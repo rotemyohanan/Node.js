@@ -11,3 +11,12 @@ Testing and array of results using Jest:
 ```javascript
 expect(result).toEqual(expect.arrayContaining(['EURO','USD','AUD']))
 ```
+
+
+Install watchman
+
+```javascript
+npm r -g watchman
+brew install watchman
+```
+
