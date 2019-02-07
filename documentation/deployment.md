@@ -22,3 +22,13 @@ npm
 npm
 
 ```
+
+
+### Git
+
+```javascript
+git checkout -b :branch-name
+
+git push --set-upstream origin :branch-name
+
+```
