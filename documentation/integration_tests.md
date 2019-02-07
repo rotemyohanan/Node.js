@@ -27,6 +27,7 @@ brew install watchman
 const mockFunction = jest.fn()
 mockFunction.mockReturnValue(1)
 // mockFunction.mockResolveValue(1)
-const result = mockFunction()
+// mockFunction.mockRejectValue(new Error('...'))
+const result = await mockFunction()
 ```
 
