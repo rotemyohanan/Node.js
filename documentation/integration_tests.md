@@ -37,6 +37,8 @@ db.getCustomerSync = jest.fn().mockReturnValue({ email: 'a' })
 mail.send = jest.fn()
 lib.notifyCustomer({ customerId : 1 })
 expect(mail.send).toHaveBeenCalled()
+expect(mail.send).toHaveBeenCalledWith('a', '...')
+
 
 
 
