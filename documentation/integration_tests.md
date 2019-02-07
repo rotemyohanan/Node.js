@@ -31,3 +31,13 @@ mockFunction.mockReturnValue(1)
 const result = await mockFunction()
 ```
 
+
+```javascript
+db.getCustomerSync = jest.fn().mockReturnValue({ email: 'a' })
+mail.send = jest.fn()
+lib.notifyCustomer({ customerId : 1 })
+expect(mail.send).toHaveBeenCalled()
+
+
+
+```
