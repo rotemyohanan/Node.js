@@ -112,13 +112,19 @@ Install mongoDB:
 ```javascript
    brew install mongodb
 ```
-
+Running the first time the MongoDB will throw the following error: 
+```javascript
+exception in initAndListen: IllegalOperation: Attempted to create a lock file on a read-only directory: /data/db, terminating
+```
 MongoDB saves data in the ```/data/db```
 
-Hence create the directory
-``` sudo mkdir -p /data/db ```
+Hence create the directory using the commands
 
-``` sudo chown -R `id -un` /data/db ```
+```javascript
+   1) sudo mkdir -p /data/db 
+   2) sudo chown -R `id -un` /data/db
+```
+
 
 ### MongoDB
 
