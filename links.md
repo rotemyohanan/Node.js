@@ -20,3 +20,6 @@ https://livebook.manning.com/#!/book/node-js-in-action-second-edition/chapter-2/
 
 middlewares:
 https://medium.com/@selvaganesh93/how-node-js-middleware-works-d8e02a936113
+
+### S3 source code
+https://docs.aws.amazon.com/code-samples/latest/catalog/javascript-s3-s3_deletebucket.js.html
