@@ -23,3 +23,8 @@ https://medium.com/@selvaganesh93/how-node-js-middleware-works-d8e02a936113
 
 ### S3 source code
 https://docs.aws.amazon.com/code-samples/latest/catalog/javascript-s3-s3_deletebucket.js.html
+
+
+### promises
+
+https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
