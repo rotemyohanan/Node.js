@@ -2,6 +2,9 @@
 
 ## javascript code examples
 
+
+#### Generate random alphanumeric string
+
 ```javascript
 let randomValue = Math.random().toString(36).replace('0.','') 
 console.log(randomValue)
