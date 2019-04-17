@@ -1,7 +1,6 @@
 
 // simple REST call 
 
-```javascript
 const Koa = require('koa')
 const app = new Koa()
 
@@ -21,7 +20,6 @@ app.use(async (ctx) => {
 })
 
 app.listen(3000)
-```
 
 // Return response
 ctx.throw(401, 'access_denied', { user: user });
