@@ -13,6 +13,7 @@ Koa Body Parser
 npm init
 npm install koa
 npm i -D nodemon
+npm install koa-ejs
 ```
 
 Main file: app.js
