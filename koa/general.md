@@ -16,3 +16,4 @@ The function returns ```ctx, next```
 in express the middleware is acting until the ```next()``` and never touching back the middleware.
 In koa, the ```await next()``` can be set in the middle of the middleware and the process will keep on running from the last point it was ```awaited```.
 
+koa is wrapping the ```next()``` with a promise
