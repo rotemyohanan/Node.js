@@ -108,6 +108,10 @@ Using RC
 
 ### MongoDB
 
+Download the mongodb (first way):
+http://www.codebind.com/mongodb/install-mongodb-mac-os-x/
+
+
 Install mongoDB:
 ```javascript
    brew cask install mongodb
