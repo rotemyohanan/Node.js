@@ -110,7 +110,7 @@ Using RC
 
 Install mongoDB:
 ```javascript
-   brew install mongodb
+   brew cask install mongodb
 ```
 Running the first time the MongoDB will throw the following error: 
 ```javascript
@@ -132,6 +132,9 @@ Hence create the directory using the commands
 https://medium.com/@rajanmaharjan/uninstall-mongodb-macos-completely-d2a6d6c163f9
 
 
+
+Lunching the mongodb: 
+https://medium.com/@gingermostly/how-to-setup-and-install-mongodb-using-homebrew-3d5a2be6ba20
 
 To have launchd start mongodb now and restart at login:
   brew services start mongodb
