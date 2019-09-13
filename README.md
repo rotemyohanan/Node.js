@@ -32,9 +32,11 @@ When require a directory in a file it will directly fetching the index.js of tha
  
 Install Nodemon (Node monitor)
 
-```javascript npm install nodemon -g --save```
+```javascript 
+npm install nodemon -g --save
+```
 
-The nodemon can to run the program ``` nodemon index.js```
+The nodemon can to run the program ```nodemon index.js```
 
 ### Define a syatem environment variable
 
