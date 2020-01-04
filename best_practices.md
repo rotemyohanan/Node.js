@@ -67,7 +67,7 @@ There’s also ```preinstall``` if you need to run something before all the NPM 
 
 Configuration management is always a big topic.
 
-```javascript process.env ```  such as ```javascript process.env.NODE_ENV ```
+```process.env ```  such as ```process.env.NODE_ENV ```
 
 
 >If you need to load further configurations, you can use a module like https://github.com/indexzero/nconf.
