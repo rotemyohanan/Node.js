@@ -1,6 +1,9 @@
 ### AB (Apache Benchmark)
 
 ##### GET Request
+```js
+ab -k -c 350 -n 20000 google.com/
+```
 
 ##### POST Request
 
